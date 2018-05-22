@@ -1,25 +1,31 @@
 1-How do we measure the length of the critical rendering path? (10 pts)
 
 The number of server round trips your page must do in order to fully load and render
-The number of actions the browser must take (eg run js, build cssom, build dom, etc) in order to fully load and render your page(answer)
+The number of actions the browser must take (eg run js, build cssom, build dom, etc) in order to fully load and render your page(answer) ==========answer===============
 By counting the number of all external resources that must be loaded
 By counting the number of render-blocking external resources that must be loaded
 
 
 2-What are the events in the Timeline pane which show the DOM being built, the CSSOM being built, and the render tree being built? (10 pts)
 
-Parse HTML, Parse CSS, Layout
+Parse HTML, Parse CSS, Layout =====answer=====
 Parse HTML, Recalculate Style, Layout
 Parse HTML, Recalculate Style, Paint
 
 
 3-What is the render tree? (10 pts)
 
+=====when the cssom and the dom get combined together=====
+
 
 4-What are three things you can do in order to speed up a website's load time? (10 pts)
 
 
+minify, compress, cache
+
 5-What is the name of the Google tool you can use to see a list of things you can do to improve your page's load speed? (10 pts)
+
+PageSpeed Insights
 
 
 6-What is the purpose of including multiple <source> elements within a single <video> element?
